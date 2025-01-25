@@ -1,0 +1,18 @@
+noStroke();
+var xPos = 100;
+var yPos = 150;
+var starSize =10;
+
+draw = function() {
+    
+    background(29, 40, 115);
+    fill(255, 242, 0);
+    starSize+=150;
+    ellipse(xPos, yPos, 15, 15);
+    
+    xPos = xPos +1;
+    yPos = yPos +1;
+    starSize = starSize +30;
+     
+    
+};
